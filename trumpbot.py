@@ -226,9 +226,6 @@ idx = {}
 
 # vertex generator for bulk inserts
 
-#allnodes.extend([(v, k,'Stance') for k, v in stance.items()])
-#allnodes.extend((x['id'],x['Label'],x['title'],x) for x in men)
-
 
 def Prop(t,d):
 	p = {}
@@ -344,11 +341,7 @@ for obj, uuid in bot.post_edges( gid, gen_edges() ):
 		
 
 
-		
-		
-#stars = ['Senator', 'Attorney General', 'Governor', 'Representative','Neutral or Skeptical', 'Supportive', 'Silent', 'Opposed','Independent', 'Republican', 'Democrat']
-#rien = ['California','Texas', 'Iowa', 'Alabama','South Carolina', 'Vermont','Colorado', 'New Jersey','Washington', 'New York', 'Nevada','Bob Ferguson','Robert Bentley','Jerry Brown','John Hickenlooper','Terry Branstad','Brian Sandoval','Chris Christie','Andrew Cuomo','Henry McMaster','Phil Scott','Jeff Sessions', 'Dianne Feinstein','Kamala Harris','Cory Gardner', 'Joni Ernst','Chuck Grassley','Cory Booker','Chuck Schumer','Lindsey Graham','Tim Scott','John Cornyn','Ted Cruz','Pat Leahy', 'Bernie Sanders', 'Maria Cantwell','Patty Murray', 'Terri Sewell','Bradley Byrne','Martha Roby','Robert Aderholt', 'Ted Lieu','Norma Torres','Raul Ruiz','Karen Bass','Linda S\xc3\xa1nchez','Lucille Roybal-Allard','Maxine Waters','Lou Correa','Kevin McCarthy','Mimi Walters','Duncan Hunter','Jim Costa','Jeff Denham','David Valadao','Edward "Ed" Royce','Mark DeSaulnier','Nancy Pelosi','Jackie Speier','Eric Swalwell','Ro Khanna','Dana Rohrabacher','Darrell Issa','Ed Perlmutter','Mike Coffman', 'Ken Buck','Doug Lamborn', 'David Loebsack', 'Steve King', 'Rod Blum','Donald Norcross', 'Bonnie Watson Coleman', 'Rodney Frelinghuysen','Christopher Smith', 'Leonard Lance','Frank LoBiondo','Thomas MacArthur','Jacky Rosen','Dina Titus','Jos\xc3\xa9 Serrano','Eliot Engel','Nita Lowey','Sean Maloney','Paul Tonko','Louise Slaughter','Brian Higgins','John Faso','Elise Stefanik','John Katko','Lee Zeldin','Peter King','Daniel Donovan','Claudia Tenney','James Clyburn','Mick Mulvaney','Mark Sanford','Trey Gowdy','Joe Wilson','Jeff Duncan', 'Pete Olson','Lloyd Doggett','Will Hurd','Vicente Gonzalez','Sam Johnson','Jeb Hensarling','Mike Conaway','Mac Thornberry','Kenny Marchant','Pete Sessions','Marc Veasey','Louie Gohmert','Ted Poe','John Ratcliffe','Joe Barton','John Carter','Brian Babin','Peter Welch', 'Rick Larsen','Derek Kilmer','Pramila Jayapal','Adam Smith', 'Denny Heck', 'David Reichert','Luther Strange','Xavier Becerra','Cynthia Coffman','Tom Miller','Adam Laxalt','Christopher Porrino','Eric Schneiderman','Alan Wilson','Ken Paxton','T.J. Donovan']
-#stars.extend(gover)
+### make the star to creat the first subgraph to start with
 
 senator = set()
 for x in men:
