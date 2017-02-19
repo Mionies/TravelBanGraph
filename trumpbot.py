@@ -187,9 +187,9 @@ TitleEdge = {
 # Bot initialisation
 
 host = "http://public.padagraph.io"
-key  = "WyJqb2FubmUuYm9pc3NvbkBnbWFpbC5jb20iLCIkMmIkMTIkdHo2T1NIYkxLaUtJNmw0ZFc3TDlnZVZxVFFhMFJjZnlsdGVyOGNQOWZSUzJ2ZmRqR1ZtZGEiXQ.C3eVNQ.A7DKEdBQwTz5WhFcF2WZtq5arAU"
+#paste you key here
+key  = 'yourkey'
 
-#key  = "WyJqb2FubmUuYm9pc3NvbkBnbWFpbC5jb20iLCIkMmIkMTIkdHo2T1NIYkxLaUtJNmw0ZFc3TDlnZVZxVFFhMFJjZnlsdGVyOGNQOWZSUzJ2ZmRqR1ZtZGEiXQ.Cuvqeg.VO0vLWQnjFvPEg1_ZzeghVWcN1Q"
 bot = Botagraph(host, key)
 
 
